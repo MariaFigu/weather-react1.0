@@ -44,6 +44,19 @@ export default function App() {
               </div>
             </div>
           </div>
-    </div></div></div>
+    </div></div>
+    <div class="open-code pl-3">
+        <small
+          ><a href="https://github.com/MariaFigu/weather-react1.0"
+            >Open-source code</a
+          >
+          and hosted on
+          <a href="https://app.netlify.com/sites/stoic-morse-455fe4/overview"
+            >Netlify</a
+          >, by Maria Figueiredo</small
+        >
+      </div></div>
+    
   );
+  
 }
