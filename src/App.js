@@ -51,7 +51,7 @@ export default function App() {
             >Open-source code</a
           >
           and hosted on
-          <a href="https://app.netlify.com/sites/stoic-morse-455fe4/overview"
+          <a href="https://hungry-aryabhata-bc1f44.netlify.app/"
             >Netlify</a
           >, by Maria Figueiredo</small
         >

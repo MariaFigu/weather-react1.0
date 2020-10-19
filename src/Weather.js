@@ -92,7 +92,7 @@ function showTemp(response) {
          color="#00BFFF"
          height={100}
          width={100}
-         timeout={300000}  
+         timeout={30000}  
       />
       </div>
       );
