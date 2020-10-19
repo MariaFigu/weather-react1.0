@@ -1,26 +1,49 @@
 import React from 'react';
-import logo from './logo.svg';
+import Weather from "./Weather";
+import Date from "./Date";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <div className="container">
+      <div className="card main-card" >
+        <div className="row no-gutters">
+          <div className="col-8">
+            <nav className="navbar navbar-light">
+      <Weather  />
+      
+<div className="date">
+  < Date />
+</div>
+  </nav>
+  </div>
+<div className="col-4">
+            <div className="card-body text-center">
+              <div className="card-day border rounded-pill">
+                <strong> Sat </strong> <br />🌞 <br />
+                <small>27°C/23°C</small>
+              </div>
+              <div className="card-day border rounded-pill">
+                <strong>Sun</strong> <br />🌞 <br />
+                <small>27°C/23°C</small>
+              </div>
+              <div className="card-day border rounded-pill">
+                <strong>Mon</strong> <br />🌞 <br />
+                <small>27°C/23°C</small>
+              </div>
+              <div className="card-day border rounded-pill">
+                <strong>Tue</strong> <br />🌞 <br />
+                <small>27°C/23°C</small>
+              </div>
+              <div className="card-day border rounded-pill">
+                <strong>Wed</strong> <br />🌞 <br />
+                <small>27°C/23°C</small>
+              </div>
+            </div>
+          </div>
+    </div></div></div>
   );
 }
-
-export default App;

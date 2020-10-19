@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.temp {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+}
+.container {
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  background: linear-gradient(
+    to right,
+    rgba(147, 206, 222, 1) 0%,
+    rgba(107, 171, 189, 1) 50%,
+    rgba(41, 126, 150, 1) 100%
+  );
+  border-radius: 15px;
+}
+.date {
+  font-weight: bold;
+}
+.card.main-card {
+  max-width: 540px;
+  background: transparent;
+  border: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-day {
+  margin: 5px;
+  border-radius: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  width: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.card-temperature {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.units {
+  position: relative;
+  top: -16px;
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-text,
+.card-feel,
+.card-temperature,
+.card-wind {
+  text-transform: capitalize;
 }
